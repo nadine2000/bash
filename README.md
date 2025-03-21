@@ -15,7 +15,7 @@ This script provides utility functions for managing files and folders:
 
 ---
 
-### 2. **Read File Script (`read_file.sh`)**
+### 2. **Read File Script (`read.sh`)**
 This script is designed to read and analyze file contents:
 
 - **Line-by-Line Printing**: Read a file line by line and print its contents.
@@ -27,7 +27,6 @@ This script is designed to read and analyze file contents:
 ### 3. **Delete Script (`delete.sh`)**
 This script handles file and folder deletion with safety checks:
 
-- **Confirmation for Deletion**: Ask for confirmation before every delete operation.
 - **Delete Options**:
   - Delete all contents of a folder (with details on the number of files and total disk usage).
   - Delete files of a specific extension.
@@ -51,5 +50,5 @@ This script acts as the main menu to run the other scripts:
 ### Setup
 1. Clone the repository
 2. run in terminal:
-   a) chmod +x utility.sh read.sh delete.sh manager.sh
-   b) ./manager.sh
+ -  a) chmod +x utility.sh read.sh delete.sh manager.sh
+ - b) ./manager.sh
